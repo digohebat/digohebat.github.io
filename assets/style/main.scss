@@ -72,13 +72,29 @@ body{
    }
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 940px) {
     .about{
-        padding-top: 0px;
+        padding-top: 30px;
         .about-section{
             .banner-image{
                 background-color: $white;
             }
+            .text-about{
+                padding-top: 0px;
+            }
+        }
+        .brands-image-section{
+            img{
+                width: 0px;
+            }
+        }
+        .brands-image{
+            margin-top: 0px;
+            margin-bottom: 0px;
+        }
+        .about-header{
+            font-weight: map-get($font-tebal,semi-bold) !important;
+            line-height: 40px;
         }
     }
     .profile-section{

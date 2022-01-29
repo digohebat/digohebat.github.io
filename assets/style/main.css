@@ -169,12 +169,26 @@ body {
   margin-top: 80px;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 940px) {
   .about {
-    padding-top: 0px;
+    padding-top: 30px;
   }
   .about .about-section .banner-image {
     background-color: #FFFFFF;
+  }
+  .about .about-section .text-about {
+    padding-top: 0px;
+  }
+  .about .brands-image-section img {
+    width: 0px;
+  }
+  .about .brands-image {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  .about .about-header {
+    font-weight: 500 !important;
+    line-height: 40px;
   }
   .profile-section {
     margin-left: 20px;
