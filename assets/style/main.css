@@ -173,8 +173,12 @@ body {
   .about {
     padding-top: 30px;
   }
+  .about .about-section .banner-image {
+    text-align: center;
+  }
   .about .about-section .banner-image img {
-    width: 434px;
+    width: 350px;
+    height: 320px;
   }
   .about .about-section .text-about {
     padding-top: 0px;
@@ -191,7 +195,7 @@ body {
     line-height: 40px;
   }
   .profile-section {
-    margin-left: 20px;
+    margin-left: 2px;
   }
   .profile-section .profile-section-header h1 {
     padding-left: 24px;

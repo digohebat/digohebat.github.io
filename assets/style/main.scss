@@ -77,8 +77,10 @@ body{
         padding-top: 30px;
         .about-section{
             .banner-image{
+                text-align: center;
                 img{
-                    width: 434px;
+                    width: 350px;
+                    height: 320px
                 }
             }
             .text-about{
@@ -100,7 +102,7 @@ body{
         }
     }
     .profile-section{
-        margin-left: 20px;
+        margin-left: 2px;
         .profile-section-header{
             h1{
                 padding-left: 24px;
