@@ -1,0 +1,20 @@
+@import './typography';
+.btn-general{
+    padding-top: 5px;
+    padding-left: 20px;
+    padding-bottom: 5px;
+    padding-right: 20px;
+    border-radius: 5px;
+    background-color: $purplelogo;
+    font-weight: map-get($font-tebal,semi-bold) !important;
+}
+.btn-primary{
+    @extend .btn-general
+}
+.btn-secondary{
+    padding-top: 5px;
+    padding-left: 20px;
+    padding-bottom: 5px;
+    padding-right: 20px;
+    background-color: $medpur;
+}
