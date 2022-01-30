@@ -199,14 +199,14 @@ body {
     text-align: left;
   }
   .profile-section .profile-section-header h1 {
-    padding-left: 24px;
+    padding-left: 15px;
     margin-top: 50px;
   }
   .testimotionals {
     width: 350px;
     display: inline-block;
     margin-left: 0px;
-    padding-left: 27px;
+    padding-left: 32px;
     margin-top: 50px;
   }
 }
