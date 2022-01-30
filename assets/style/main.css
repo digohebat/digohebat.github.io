@@ -205,7 +205,8 @@ body {
   .testimotionals {
     width: 350px;
     display: inline-block;
-    text-align: center;
+    margin-left: 0px;
+    padding-left: 27px;
     margin-top: 50px;
   }
 }
