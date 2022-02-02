@@ -1,53 +1,25 @@
 #layer1 {
-  max-width: 40px;
+  max-width: 58px;
 }
 
 #center {
   -webkit-animation: spin 5s linear infinite;
-          animation: spin 5s linear infinite;
 }
 
 @-webkit-keyframes moveEye {
   30% {
     -webkit-transform: translateX(-70px);
-            transform: translateX(-70px);
-  }
-}
-
-@keyframes moveEye {
-  30% {
-    -webkit-transform: translateX(-70px);
-            transform: translateX(-70px);
   }
 }
 
 @-webkit-keyframes spin {
   0% {
     -webkit-transform: rotateZ(0);
-            transform: rotateZ(0);
     -webkit-transform-origin: center;
-            transform-origin: center;
   }
   100% {
     -webkit-transform: rotateZ(360deg);
-            transform: rotateZ(360deg);
     -webkit-transform-origin: center;
-            transform-origin: center;
-  }
-}
-
-@keyframes spin {
-  0% {
-    -webkit-transform: rotateZ(0);
-            transform: rotateZ(0);
-    -webkit-transform-origin: center;
-            transform-origin: center;
-  }
-  100% {
-    -webkit-transform: rotateZ(360deg);
-            transform: rotateZ(360deg);
-    -webkit-transform-origin: center;
-            transform-origin: center;
   }
 }
 
@@ -333,6 +305,15 @@ body {
 
 body {
   font-family: 'Rubik', sans-serif;
+}
+
+.href-logo {
+  color: #000000;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #B662D1;
 }
 
 .navbar-parent {

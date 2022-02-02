@@ -1,23 +1,23 @@
 #layer1{
-    max-width: 40px;
+    max-width: 58px;
 }
 
 #center{
-    animation: spin 5s linear infinite;
+    -webkit-animation: spin 5s linear infinite;
 }
-@keyframes moveEye{
+@-webkit-keyframes moveEye{
     30%{
-        transform: translateX(-70px);
+        -webkit-transform: translateX(-70px);
     }
 }
 
-@keyframes spin{
+@-webkit-keyframes spin{
     0% {
-        transform: rotateZ(0);
-        transform-origin: center;
-      }
-      100% {
-        transform: rotateZ(360deg);
-        transform-origin: center;
-      }
+        -webkit-transform: rotateZ(0);
+        -webkit-transform-origin: center;
+    }
+    100% {
+        -webkit-transform: rotateZ(360deg);
+        -webkit-transform-origin: center;
+    }
 }
