@@ -382,6 +382,14 @@ a:hover {
 }
 
 @media screen and (max-width: 940px) {
+  .href-logo {
+    color: #000000;
+    text-decoration: none;
+    margin-left: 0px;
+  }
+  a:hover {
+    color: #B662D1;
+  }
   .about {
     padding-top: 30px;
   }
