@@ -1,0 +1,27 @@
+#layer1{
+    max-width: 60px;
+    overflow: visible;
+    display: flex;
+    justify-content: center;
+    
+}
+
+#center{
+    animation: spin 5s linear infinite;
+}
+@keyframes moveEye{
+    30%{
+        transform: translateX(-70px);
+    }
+}
+
+@keyframes spin{
+    0% {
+        transform: rotateZ(0);
+        transform-origin: center;
+      }
+      100% {
+        transform: rotateZ(360deg);
+        transform-origin: center;
+      }
+}
